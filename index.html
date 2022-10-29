@@ -15,29 +15,36 @@
 <body>
     <container class="card">
         <div class="card__img"></div>
-        <h1 class="card__title">Technoir - NY</h1>
+        <h1 class="card__title">Technoir</h1>
         <h2 class="card__subtitle">New York's newest cyberpunk-themed club</h2>
-        <div class="card__icons"></div>
-        <p class="card__content">Attention on Corpos, Deckheads, and Edgerunners: New York's 
+        <div class="card__icons">
+            <i class="fa-brands fa-square-facebook card__icon" id="facebook"></i>
+            <i class="fa-brands fa-square-twitter card__icon" id="twitter"></i>
+            <i class="fa-brands fa-square-instagram card__icon" id="instagram"></i>
+            <i class="fa-brands fa-square-youtube card__icon" id="youtube"></i>
+        </div>
+        <p class="card__content">Attention Corpos, Deckheads, and Edgerunners: New York's 
             newest themed club is about to open. Get your eddies ready and prepare your choombahs 
             for the apogee of experiences. Rub shoulders with the gato, party with the Rockerboys, 
-            and experience a night you'll never forget. Coming soon.
+            and experience a night you'll never forget. Don't be a gonk, stay informed. Coming soon.
         </p>
+        <button class="card__button">Stay Informed</button>
     </container>
-    <form class="form">
+    <form class="card form">
+        <h3 class="form__title">Contact Me</h3>
         <div class="form__control">
             <input type="text" required>
             <label>First Name</label>
         </div>
         <div class="form__control">
-            <input type="text" required>
-            <label>First Name</label>
+            <input type="email" required>
+            <label>Email</label>
         </div>
         <div class="form__control">
-            <input type="text" required>
-            <label>First Name</label>
+            <input type="tel" required>
+            <label>Mobile</label>
         </div>
-        <button class="form__button">Inform Me</button>
+        <button class="card__button">Inform Me</button>
     </form>
 </body>
 
