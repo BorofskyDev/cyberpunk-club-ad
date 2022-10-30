@@ -1,18 +1,10 @@
-const labels = document.querySelectorAll('.form__control label');
+
 const form = document.querySelector('.form');
 const card = document.querySelector('.card');
 const contactFormBtn = document.getElementById('contact-form-btn');
 const formClose = document.querySelector('.form__close');
 
-labels.forEach((label) => {
-  label.innerHTML = label.innerText
-    .split('')
-    .map(
-      (letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}
-        </span>`
-    )
-    .join('');
-});
+
 
 contactFormBtn.addEventListener('click', () => {
   form.classList.toggle('active');
