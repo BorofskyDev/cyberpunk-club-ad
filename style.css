@@ -273,9 +273,9 @@ body {
 
 .form__control label {
   position: absolute;
-  top: 1.5em;
+  top: 15px;
   left: 1em;
-  z-index: 10;
+
 }
 
 .form__control label span {
@@ -289,6 +289,7 @@ body {
 .form__control input:valid + label span {
   color: var(--clr-primary);
   transform: translateY(-2.3em);
+  pointer-events: none;
 }
 
 .form__control input {
